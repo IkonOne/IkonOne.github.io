@@ -4,7 +4,61 @@ title: Erin M. Gunn
 show_banner: true
 ---
 
-<div class="container mt-4">
-<h2 class="text-center">I enjoy writing clean and efficient code that makes an impact.</h2>
-<hr class="bg-primary content-separator" />
-<h4 class="page-section-heading text-center text-uppercase text-secondary pt-2">Under Construction...</h4>
+
+<div class="container my-4">
+    <!-- <h2 class="text-center">I enjoy writing clean and efficient code that makes an impact.</h2> -->
+    <h2 class="text-center">Computer Scientist | Roboticist | 3D Printing and Graphics</h2>
+    <hr class="bg-primary content-separator" />
+    <div class="row justify-content-start">
+        <!-- <div class="col-sm-6 card shadow text-white banner-card px-5"> -->
+        <div class="col-md-5 col-lg-4">
+            <div class="card-body text-center py-4">
+                <img src="assets/images/avatar.jpg" class="img-fluid rounded-circle center-block" />
+                <h1 class="display-6 font-weight-normal">Erin M. Gunn</h1>
+                <h3><small class="text-muted font-weight-light">Computer Scientist<br/>Roboticist</small></h3>
+            </div>
+        </div>
+        <div class="col-md-7 col-lg-8">
+            <p class="lead">
+                I am a Computer Scientist and Roboticist with experience in computational geometry, computer vision, 3D reconstruction, mechatronics, 3D graphics and 3D printing.
+                My dream is to work with a diverse team of engineers and researchers to solve difficult spatial reasoning problems on resource constrained hardware.
+            </p>
+            <p class="lead">
+                With professional development experience dating back 10 years (that includes publishing over 20 games), I have returned to school to fill some of the knokwledge gaps my google university education missed.
+                Having tested out of numerous courses up to the junior level, I have taken several graduate level courses and excelled at the research and independent study opportunities I pursued.
+                I will graduate in May of 2022 with my Bachelors of Computer Science degree.
+            </p>
+            <p class="lead">
+                The banner at the top of my website is a recreation of the first original program I wrote.
+                The original version was written in C++ and rendered using OpenGL.
+                I wrote it when I was 16 after learning the skills necessary from a pair of books.
+            </p>
+            <p class="lead">
+                If the highly motivated spatial problem solving mindset demonstrated on this page is something you seek, please don't hesitate to contact me: erin at eringunn.com.
+            </p>
+        </div>
+    </div>
+    <hr class="bg-primary content-separator" />
+    <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Work History</h2>
+
+    <hr class="bg-primary content-separator" />
+    <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Projects</h2>
+
+    {% assign projects = site.projects | sort: "order" %}
+    {% for project in projects %}
+        <div class="row pt-4">
+            <div class="col">
+                <h2>{{project.name}}</h2>
+                <h5>Project Type: {{project.type}}</h5>
+
+                {% assign tags = project.tags | join: " | " %}
+                <h6>Skills: {{ tags | replace: "_", " "}}</h6>
+
+                <p class="font-italic">Goal: {{project.goal}}</p>
+
+                <p>{{project.content | markdownify}}</p>
+            </div>
+        </div>
+    {% endfor %}
+
+</div>
