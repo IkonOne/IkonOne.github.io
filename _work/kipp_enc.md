@@ -9,4 +9,4 @@ order: 30
 - Planned and executed a transition from Microsoft Exchange to Google Apps for the entire district
 - Initiated and executed a testing environment transition, dramatically increasing productivity through increased stability, security and performance
 - Identified, proposed and executed changes to the wireless infrastructure to address coverage gaps and issues with bandwidth
-- Configured and deployed the entire infrastructure of a new middle school.
+- Designe, deployed and configured the entire infrastructure of a new middle school.

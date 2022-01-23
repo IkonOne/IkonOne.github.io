@@ -5,7 +5,7 @@ show_banner: true
 ---
 
 
-<div class="container my-4">
+<div class="container my-4" id="about">
     <!-- <h2 class="text-center">I enjoy writing clean and efficient code that makes an impact.</h2> -->
     <h2 class="text-center">Computer Scientist | Roboticist | 3D Printing and Graphics</h2>
     <hr class="bg-primary content-separator" />
@@ -38,8 +38,11 @@ show_banner: true
             </p>
         </div>
     </div>
-    <hr class="bg-primary content-separator" />
-    <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Work History</h2>
+
+    <div id="work-history">
+        <hr class="bg-primary content-separator" />
+        <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Work History</h2>
+    </div>
 
     {% assign work = site.work | sort: "order" %}
     {% for job in work %}
@@ -57,8 +60,10 @@ show_banner: true
         </div>
     {% endfor %}
 
-    <hr class="bg-primary content-separator" />
-    <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Projects</h2>
+    <div id="projects">
+        <hr class="bg-primary content-separator" />
+        <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Projects</h2>
+    </div>
 
     {% assign projects = site.projects | sort: "order" %}
     {% for project in projects %}
