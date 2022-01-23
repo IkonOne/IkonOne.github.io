@@ -1,3 +1,4 @@
 include: [ CNAME ]
 collections:
   - projects
+  - work

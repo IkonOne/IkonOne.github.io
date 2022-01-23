@@ -6,7 +6,6 @@ tags: C++ OpenGL Box2d Raspberry_Pi UDP Serial CMake 3D_Printing CAD Mechatronic
 order: 00
 ---
 
-- Implemented a PID controller with a GUI for hand tuning of the gains and visualization of the state
 - Developed an OpenGL debug viewer that renders the inverted pendulum and a simple GUI
 - Designed and implemented a communications protocol with a platform independent API
 - Designed and executed experiments that identified that a simple PID controller can maintain stability with small disturbances with latency up to 1 second and packet loss up to 75%.

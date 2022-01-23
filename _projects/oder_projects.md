@@ -84,7 +84,7 @@ Here are some of the highlights that accurately demonstrate my programming inter
             <div class="card-body">
                 <h5 class="card-title">Flocking</h5>
                 <p class="card-body">Artificial life is one of the most interesting topics I've ever explored in my programming journey.
-                This is a brute-force O(n^2) implementation of <a href="https://www.red3d.com/cwr/steer/">Craig Reynolds steering behaviors.</a></p>
+                This is a brute-force implementation of <a href="https://www.red3d.com/cwr/steer/">Craig Reynolds steering behaviors.</a></p>
             </div>
         </div>
     </div>

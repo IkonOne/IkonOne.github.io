@@ -41,6 +41,22 @@ show_banner: true
     <hr class="bg-primary content-separator" />
     <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Work History</h2>
 
+    {% assign work = site.work | sort: "order" %}
+    {% for job in work %}
+        <div class="row pt-4">
+            <div class="col-md-6">
+                <h2>{{job.company}}</h2>
+            </div>
+            <div class="col-md-6 text-right">
+                <h2>{{job.dates}}</h2>
+            </div>
+            <div class="col">
+                <h5>Role: {{job.role}}</h5>
+                <p>{{job.content | markdownify}}</p>
+            </div>
+        </div>
+    {% endfor %}
+
     <hr class="bg-primary content-separator" />
     <h2 class="page-section-heading text-center text-uppercase text-secondary pt-2">Projects</h2>
 
