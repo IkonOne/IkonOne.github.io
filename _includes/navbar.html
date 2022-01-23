@@ -9,10 +9,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
             {% for item in site.data.navbar %}
-                <li class="nav-item
-                    {% if page.url == item.link %} bg-nav-item-active {% endif %}">
-                    <a class="nav-link font-weight-light
-                        {% if page.url == item.link %} text-white {% endif %}"
+                <li class="nav-item">
+                    <a class="nav-link font-weight-light"
                         href="{{ item.link }}"> {{ item.name }} </a>
                 </li>
             {% endfor %}  

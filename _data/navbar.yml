@@ -1,10 +1,6 @@
 - name: "About Me"
-  link: #
-- name: Portfolio
-  link: #
-- name: "My Banners"
-  link: #
-- name: Experience
-  link: #
-- name: "Hire Me"
-  link: #
+  link: "#about"
+- name: "Work History"
+  link: "#work-history"
+- name: Projects
+  link: "#projects"
