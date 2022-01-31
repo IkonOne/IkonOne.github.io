@@ -68,15 +68,23 @@ show_banner: true
     {% assign projects = site.projects | sort: "order" %}
     {% for project in projects %}
         <div class="row pt-4">
-            <div class="col">
+            <div class="col-12">
                 <h2>{{project.name}}</h2>
                 <h5>Project Type: {{project.type}}</h5>
 
                 {% assign tags = project.tags | join: " | " %}
                 <h6>Skills: {{ tags | replace: "_", " "}}</h6>
 
-                <p class="font-italic">Goal: {{project.goal}}</p>
+            </div>
 
+            {% if project.image %}
+            <div class="col-12 pb-2 pt-2">
+                <img class="img-fluid" src="assets/images/{{ project.image }}" />
+            </div>  
+            {% endif %}
+
+            <div class="col-12">
+                <p class="font-italic">Goal: {{project.goal}}</p>
                 <p>{{project.content | markdownify}}</p>
             </div>
         </div>

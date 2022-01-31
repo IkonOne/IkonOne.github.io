@@ -3,6 +3,7 @@ name: Triply Periodic Minimal Surface Infill
 type: Funded Research @ CSU
 tags: C++ Python 3D_Graphics 3D_Printing Numerical_Methods Computational_Geometry 
 goal: Design and implement an algorithm that enables 3D printing of Fisher-Koch S for biological tissue manufacturing research.
+image: tpms_modeller.png
 order: 00
 ---
 

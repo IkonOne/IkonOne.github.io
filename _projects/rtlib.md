@@ -2,7 +2,8 @@
 name: RTLib - A Raytracing Library
 type: Coursework
 goal: Implement a reference ray-tracer and explore methods of optimization.
-tags: Ray-Tracing 3D_Graphics Data_Structures
+tags: C++ CMake Ray-Tracing 3D_Graphics Data_Structures
+image: rtlib.png
 order: 01
 ---
 

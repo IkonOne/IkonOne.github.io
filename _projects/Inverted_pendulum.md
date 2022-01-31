@@ -2,7 +2,8 @@
 name: Inverted Pendulum
 type: Personal Interest
 goal: Study the effects of latency and packet loss on a remotely controlled inverted pendulum.
-tags: C++ OpenGL Box2d Raspberry_Pi UDP Serial CMake 3D_Printing CAD Mechatronics Electronics_Reverse_Engineering Software_Engineering
+tags: C++ OpenGL Box2d Raspberry_Pi UDP Serial CMake 3D_Printing CAD Mechatronics Electronics_Reverse_Engineering
+image: inverted_pendulum.jpg
 order: 00
 ---
 

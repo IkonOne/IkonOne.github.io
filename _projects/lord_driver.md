@@ -3,6 +3,7 @@ name: Altitude Heading and Reference Sensor Driver for UAVs
 type: Funded Independent Study @ CSU
 goal: Implement a LORD MicroStrain AHRS sensor into Ardupilot.
 tags: Teamwork Project_Management C++ Python UAVs Serial GDB Microcontrollers
+image: ahrs.jpg
 order: 10
 ---
 
