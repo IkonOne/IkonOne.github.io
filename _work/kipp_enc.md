@@ -2,7 +2,7 @@
 company: KIPP Eastern North Carolina
 role: System Administrator
 dates: July 2013 - June 2015
-order: 30
+order: 40
 ---
 
 - Managed and supported a multisite Cisco/Windows infrastructure and 600 end user devices

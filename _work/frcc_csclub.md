@@ -2,7 +2,7 @@
 company: Computer Science Club FRCC
 role: Officer of Robotics
 dates: August 2018 - December 2019
-order: 10
+order: 20
 ---
 
 - Designed, built and programmed line following and sumo robots using off the shelf microcontrollers and sensors

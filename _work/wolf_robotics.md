@@ -2,7 +2,7 @@
 company: Wolf Robotics LLC
 role: Software Engineering Intern
 dates: July 2018 - September 2019
-order: 00
+order: 10
 ---
 
 - Researched, planned and led development of a program to automate the identification of potentially weldable seams in customer parts using an off the shelf RGB-Depth camera

@@ -2,7 +2,7 @@
 company: Freelance Game Developer
 role: Owner/Operator
 dates: August 2012 - July 2018
-order: 20
+order: 30
 ---
 
 - Conceived, led and executed the design and development of cross platform games and applications
